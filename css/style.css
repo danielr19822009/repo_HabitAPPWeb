@@ -1,0 +1,245 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+img {
+    width: 30%;
+    max-height: 20em !important;
+    margin: 0 auto;
+    border-radius: 1em;
+    border: solid 10px;
+    border-left-color: #2f332f;
+    display: flex;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li.logo {
+    margin-left: auto;
+    /* Empuja los demás elementos a la derecha */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li img.logo {
+    width: 30%;
+    height: auto;
+    border-radius: 1em;
+    border: solid 5px;
+    border-left-color: #2f332f;
+}
+
+/* Estilo del header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange !important;
+    border-radius: 10px;
+    padding: 1em;
+    border: solid 5px;
+    border-left-color: black;
+}
+
+header .search-bar {
+    margin: 10px 0;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 6px 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo del h1 */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo del párrafo */
+p {
+    text-align: center;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del header */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .logo {
+    width: 30px; 
+    height: auto; 
+    border-radius: 1em;
+    border: solid 5px;
+    border-left-color: #2f332f;
+    margin-left: auto; /* Para empujar la imagen a la izquierda */
+}
+
+/* Estilo del h1 */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo del párrafo */
+p {
+    text-align: center;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+/* Estilo de las cards */
+#opciones {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#opciones .card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#opciones .card i {
+    font-size: 50px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+#opciones .card h3 {
+    margin: 10px 0;
+}
+
+#opciones .card p {
+    font-size: 14px;
+    color: #777;
+}
+
+#opciones .card button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#opciones .card button:hover {
+    background-color: #4CAF50;
+}
